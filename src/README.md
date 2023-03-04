@@ -1,0 +1,1 @@
+Gerekli Modüller: PyQt5, configparser, sqlite3

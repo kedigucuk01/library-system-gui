@@ -1,0 +1,117 @@
+QWidget{
+	background-color: #484343;
+}
+
+QLabel{
+	font: bold 22px;
+	color: blue;
+}
+
+QLabel#err{
+	font: Arial 1px;
+	color: red;
+}
+
+QLineEdit{
+	background-color: #ccc;
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: beige;
+    font: bold 14px;
+    min-width: 10em;
+    padding: 6px;
+}
+
+QLineEdit#err{
+    border-color: red;
+}
+
+QLineEdit#main{
+	border-color: beige;
+}
+
+QPushButton{
+    background-color: #38b88d;
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: ;
+    font: bold 14px;
+    min-width: 10em;
+    padding: 6px;
+}
+
+QPushButton:hover{
+	background-color:#4DA47A;
+
+}
+
+QPushButton#text{
+    background-color: transparent;
+    border-width: 0px;
+    font: Arial 11px;
+	color: blue;
+	text-decoration: underline;
+}
+
+QPushButton#text:hover{
+	color: red;
+
+}
+
+QComboBox{
+	background-color: orange;
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: orange;
+    font: bold 14px;
+    min-width: 10em;
+    padding: 6px;
+}
+
+QTableWidget{
+    background-color: yellow;
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: yellow;
+    font: bold 14px;
+    min-width: 10em;
+    padding: 6px;
+}
+
+QTabWidget::tab-bar {
+ background-color: black;
+}
+
+QTabBar::tab {
+    background-color: #4094da;
+    border-color:white;
+    font: italic 12px 'Arial';
+    color: white;
+    height:60px;
+    width:120px;
+
+}
+QTabBar::tab:!selected {
+    background-color: #9E9E9E;
+    color: white;
+ }
+
+
+QTabBar::close-button {
+    background-position: center;
+    background-image: url(":/Appearance/close_chat_item");
+}
+
+QTabWidget::pane { 
+     position: absolute;
+ }
+
+QTabBar::tab:selected {
+    border-color:#4DA47A;
+    background-color: #38b88d;
+    color: #ccc;
+}
